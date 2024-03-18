@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Gandhi - ML Enthusist </title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Roboto:wght@400;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar {
+        /*background-color: rgb(238, 5, 5);*/
+        background-color: rgb(197, 196, 196);
+        /*width: 10vw;*/
+        height: 100vh;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: transform 0.3s ease-in;
+    }
+
+    .sidebar nav li {
+        list-style: none;
+        font-size: 15px;
+
+        padding: 42px 0px;
+
+    }
+
+    .sidebar nav a {
+        text-decoration: none;
+        color: #070707;
+        font-weight: bold;
+    }
+
+    .sidebar nav {
+        padding: 43px;
+    }
+
+    .main {
+        width: 90vw;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .infocontainer {
+        /*background-color: rgb(64, 190, 202);*/
+        height: 70vh;
+        width: 80vw;
+        margin: auto;
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .devpic img {
+
+        width: 444 px;
+        height: 60vh;
+        justify-content: space-around;
+    }
+
+    .devinfo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hello {
+        font-size: 75px;
+    }
+
+    .name {
+        font-size: 60px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    .About {
+        font-size: 45px;
+
+    }
+
+    .buttons {
+        margin-top: 36px;
+    }
+
+    .buttons button {
+        padding: 7px;
+        border-radius: 8px;
+        cursor: pointer;
+        color: white;
+        background-color: #1d9b89;
+        font-size: 15px;
+        font-style: unset;
+        font-weight: bold;
+        margin: 0 3px;
+    }
+
+    .buttons button :hover {
+        background-color: #cc0e0e;
+        color: #423737;
+    }
+
+    .More {
+        font-size: 20px;
+        padding-top: 34px;
+
+
+
+    }
+
+    .buttons button:hover {
+        background-color: #df1111;
+        color: #070707;
+    }
+
+    @media (max-width:950px) {
+        * {}
+
+        /*.sidebar {
+            transform: translate(-443px, 0PX);
+            position: absolute;
+        }*/
+    }
+
+    .sidebargo {
+        transform: translate(-443px, 0PX);
+        position: absolute;
+
+    }
+
+    .hamberger {
+
+        position: absolute;
+        cursor: pointer;
+        top: 10px;
+        left: 10px;
+    }
+
+    .cross {
+        margin-left: 122px;
+        margin-top: 8px;
+        height: 20px;
+        width: 20px;
+    }
+
+    .ham {
+        margin-top: 8px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+
+            <nav>
+                <ul>
+                    <li><a href="/Home.html ">Home</a></li>
+                    <li><a href="/Intro.html">My Intro</a></li>
+                    <li><a href="/Services.html">Services</a></li>
+                    <li><a href="/Blog.html">Blog</a></li>
+                    <li><a href="/Contact.html">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamberger">
+                <img class="ham" src="ham.png" alt="" width="24px">
+                <img class="cross" src="cross.png" alt="" width="24px">
+            </div>
+            <div class="infocontainer">
+                <div class="devinfo">
+                    <div class="hello">Hi I am</div>
+                    <div class="name">Rahul Gandhi</div>
+                    <div class="About">Developer , Dancer , Singer</div>
+                    <div class="More">I am a Developer and I am interesterd in coding as well as swimming
+                    </div>
+                    <div class="buttons">
+                        <a href="/cv.txt" target="blank">
+                            <button>Download cv</button></a>
+                        <a href="Contact.html"> <button>Contact me</button>
+                    </div>
+                </div>
+                <div class="devpic"><img src="vi.jpg" alt="Rahul Gandhi">
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

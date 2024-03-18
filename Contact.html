@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Gandhi - ML Enthusist </title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Roboto:wght@400;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar {
+        /*background-color: rgb(238, 5, 5);*/
+        background-color: rgb(197, 196, 196);
+        width: 10vw;
+        height: 100vh;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+
+    .sidebar nav li {
+        list-style: none;
+        font-size: 15px;
+
+        padding: 42px 0px;
+
+    }
+
+    .sidebar nav a {
+        text-decoration: none;
+        color: #070707;
+        font-weight: bold;
+    }
+
+    .sidebar nav {
+        padding: 43px;
+    }
+
+    .main {
+        width: 90vw;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .infocontainer {
+        /*background-color: rgb(64, 190, 202);*/
+        height: 70vh;
+        width: 80vw;
+        margin: auto;
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .devpic img {
+
+        width: 444 px;
+        height: 70vh;
+        justify-content: space-around;
+    }
+
+    .devinfo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .hello {
+        font-size: 75px;
+    }
+
+    .name {
+        font-size: 60px;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    .About {
+        font-size: 45px;
+
+    }
+
+    .buttons {
+        margin-top: 36px;
+    }
+
+    .buttons button {
+        padding: 7px;
+        border-radius: 8px;
+        cursor: pointer;
+        color: white;
+        background-color: #1d9b89;
+        font-size: 15px;
+        font-style: unset;
+        font-weight: bold;
+        margin: 0 3px;
+    }
+
+    .buttons button :hover {
+        background-color: #cc0e0e;
+        color: #423737;
+    }
+
+    .More {
+        font-size: 20px;
+        padding-top: 34px;
+
+
+
+    }
+
+    .buttons button:hover {
+        background-color: #f6f1f1;
+        color: #070707;
+    }
+
+    .contactform {
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 144px;
+        padding-left: 34px;
+
+    }
+
+    .contactform h1 {
+        padding-top: 144px;
+        padding: 11px 1px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    .contactform form div {
+        padding: 3px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #emailHelp {
+        font-size:12px;
+        color: #0f0fb9;
+        margin: 0px 9px;
+
+
+    }
+
+    .contactform form div input {
+        width:30vw;
+        border-radius: 5px;
+        font-size: 18px;
+        margin: 3px 0px 0px 0PX ;
+       padding: 3px;
+    }
+
+    #form-check {
+        flex-direction: row;
+    }
+
+    #form-check-input {
+        width: 2px;
+        margin: 3px 0PX;
+    }
+   .btn-primary {
+        font-size: 14px;
+        width: 61px;
+        border-radius: 5px;
+        color: #0d0c0c;
+        background-color: #0eebb3;
+        border: rgb(180, 180, 23);
+    }
+   .btn-primary:hover {
+        color: #c0c0cf;
+        background-color: #081be4;
+      cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+
+            <nav>
+                <ul>
+                    <li><a href=" ">Home</a></li>
+                    <li><a href="/Intro.html">My Intro</a></li>
+                    <li><a href="/Services.html">Services</a></li>
+                    <li><a href="/Blog.html">Blog</a></li>
+                    <li><a href="/Contact.html">Contact me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="contactform">
+                <h1>Contact me for work or general Enquary</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="cliantEmail" class="form-label">Name : </label>
+                        <input type="Name" class="form-control" id="cliantEmail" aria-describedby="emailHelp">
+                        <label for="cliantEmail" class="form-label">Email address : </label>
+                        <input type="email" class="form-control" id="cliantEmail" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email & Phone with anyone else.
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cliantPhone" class="form-label"> Phone Num :</label>
+                        <input type="phone" class="form-control" id="cliantPhone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="cliantPhone" class="form-label"> Enquary : </label>
+                        <input type="phone" class="form-control" id="cliantPhone">
+                    </div>
+                    <div class="mb-3 " id="form-check">
+                        <input type="checkbox" class="form-check-input" id="is cliant ">
+                        <label class="form-check-label" for="is cliant "> I want you to work on a project with
+                            me</label>
+                    </div>
+                    <button type="submit" class=" btn-primary">Submit</button>
+                   
+                    
+                </form>
+            </div>
+        </div>
+</body>
+
+</html>
